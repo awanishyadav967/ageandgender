@@ -1,0 +1,50 @@
+# Need to get the CPU version of torch packages from here:
+# These are needed because the deployed app doesn't have much room for the full version
+#-f https://download.pytorch.org/whl/torch_stable.html
+#torch==1.8.1+cpu
+#torchvision==0.9.1+cpu
+-find-links https://download.pytorch.org/whl/torch_stable.html 
+#torch==1.7.1+cpu
+torch --extra-index-url https://download.pytorch.org/whl/cpu
+torchvision --extra-index-url https://download.pytorch.org/whl/cpu
+keras==2.9.0rc0
+##numpy==1.22.3
+Pillow==9.0.1
+scikit-image==0.19.2
+streamlit==1.7.0
+face_detection==0.2.2
+opencv-python-headless==4.5.5.64
+streamlit-drawable-canvas==0.8.0
+#click==8.0.4
+tensorflow-cpu
+#tensorflow==2.9.0
+click==8.0.4
+#torch>=1.7
+numpy<1.21  # numba requires numpy<1.21,>=1.17
+#opencv-python
+#torch
+scipy
+tqdm
+#basicsr>=1.3.4.0
+facexlib>=0.2.0.3
+lmdb
+pyyaml
+tb-nightly
+yapf
+
+
+addict
+future
+#lmdb
+#numpy
+#opencv-python
+#Pillow
+#pyyaml
+requests
+#scikit-image
+#scipy
+#tb-nightly
+#torch>=1.7
+#torchvision
+#tqdm
+#yapf

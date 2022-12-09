@@ -1,0 +1,15 @@
+{
+    "version": "4.4.0",
+    "objects": [
+        {
+            "type": "rect",
+            "left": 49,
+            "top": 64,
+            "width": 345,
+            "height": 360,
+            "fill": "#00FFB350",
+            "stroke": "#00FFB3",
+            "strokeWidth": 3
+        }
+    ]
+}
